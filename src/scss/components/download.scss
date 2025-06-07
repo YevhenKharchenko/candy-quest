@@ -1,0 +1,36 @@
+.download-section {
+  padding-top: 101px;
+  padding-bottom: 130px;
+  background-image: url(../img/download/download-text-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top 15px center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-top: 144px;
+    padding-bottom: 212px;
+    background-image: url(../img/download/download-text-bg-desk.png);
+    background-position: top 75px center;
+  }
+}
+
+.download-title {
+  margin-bottom: 16px;
+}
+
+.download-text {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  max-width: 253px;
+  margin: 0 auto;
+  word-break: break-word;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: fit-content;
+  }
+}

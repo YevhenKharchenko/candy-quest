@@ -1,43 +1,19 @@
-.faq-bg-wrapper {
-  padding-top: 20px;
-  padding-bottom: 336px;
-  position: relative;
-
-  @include media(desktop) {
-    padding-top: 60px;
-    padding-bottom: 59px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-}
-
-.faq-girl-img {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  @include media(desktop) {
-    left: auto;
-    transform: none;
-    right: 0;
-  }
-}
-
 .faq-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
+
+  @include media(desktop) {
+    gap: 16px;
+  }
 }
 
 .faq-list-item {
-  box-shadow: inset -5px 5px 0 0 rgba(0, 69, 152, 0.25);
-  background: #004598;
-  border-bottom: 1px solid #fff;
-  border-radius: 8px;
-  padding: 16px;
+  background: #00034a;
+  border-radius: 16px;
+  padding: 16px 24px;
   max-width: 336px;
   display: flex;
   flex-direction: column;
@@ -72,7 +48,7 @@
 }
 
 .faq-btn-text {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -85,7 +61,7 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

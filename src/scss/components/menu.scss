@@ -1,5 +1,7 @@
 .context-menu {
   display: none;
+  padding-top: 14px;
+  padding-bottom: 222px;
   background-image: url(../img/menu/menu-bg.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -16,13 +18,9 @@
   z-index: 10;
 }
 
-.context-bg-wrapper {
-  padding-top: 14px;
-  padding-bottom: 222px;
-  padding-left: 15px;
-  padding-right: 15px;
+.context-container {
+  max-width: 375px;
   margin: 0 auto;
-  position: relative;
 }
 
 .context-btn-wrapper {
