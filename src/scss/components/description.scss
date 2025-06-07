@@ -1,43 +1,37 @@
-.description-bg-wrapper {
-  padding-top: 60px;
+.description-section {
+  padding-top: 45px;
   padding-bottom: 80px;
-  max-width: 375px;
-  margin: 0 auto;
-  position: relative;
+  background-image: url(../img/description/description-text-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top 55px center;
+  background-size: auto;
 
   @include media(desktop) {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    max-width: 1440px;
+    padding-top: 41px;
+    padding-bottom: 153px;
+    background-image: url(../img/description/description-text-bg-desk.png);
+    background-position: top 85px center;
   }
 }
 
-.description-container {
+.description-title {
+  @include media(desktop) {
+    margin-bottom: 70px;
+  }
 }
 
 .description-text {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #fff;
+  color: #000;
   word-break: break-word;
 
   @include media(desktop) {
     font-size: 20px;
-    max-width: 712px;
+    max-width: 834px;
     margin: 0 auto;
-  }
-}
-
-.description-bubbles-img {
-  position: absolute;
-  top: 26px;
-  left: 20px;
-
-  @include media(desktop) {
-    top: 75px;
-    left: 180px;
   }
 }
