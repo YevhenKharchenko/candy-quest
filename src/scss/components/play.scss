@@ -21,7 +21,8 @@
 .play-list {
   display: flex;
   flex-direction: column;
-  gap: 105px;
+  align-items: center;
+  gap: 14px;
 
   @include media(desktop) {
     flex-direction: row;
@@ -35,6 +36,13 @@
   align-items: center;
   justify-content: center;
   gap: 11px;
+  width: 280px;
+  height: 187px;
+  background-image: url(../img/play/play-text-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  overflow: visible;
 }
 
 .play-item-bg-img {
